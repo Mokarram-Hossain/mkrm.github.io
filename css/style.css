@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+.section_title{
+	font-size: 5rem;
+	/*font-weight: 900;*/
+	color: #fff;
+	text-align: center;
+	padding: 40px 20px;
+	font-weight: bold;
+}
+.section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+
+
+.navbar-brand{
+	color: #ffff;
+	font-size: 2rem;
+}
+
+#header{
+	width: 100%;
+	background: #161616!important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#header #menu li a{
+	margin-left: 7px;
+	color: #fff;
+	/*font-weight: bold;*/
+	/*letter-spacing: 1px;*/
+	transition: all 0.5s ease;
+	font-size: 1.1rem;
+}
+#header #menu li a:hover{
+	color: #CF000F;
+}
+#banner{
+	width: 100%;
+	background: #161616!important;
+	padding-bottom: 100px;
+/*	border-bottom: 1px solid #363636;*/
+
+}
+#banner .banner-title{
+	margin-top: 18%;
+}
+#banner .banner-title h1{
+	font-size: 5.5rem;
+	font-weight: 900;
+	color: #fff;
+}
+#banner .banner-title .btn{
+	width: 190px;
+	background: #CF000F;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: 400;
+	margin-top: 10px;
+	border-radius: 0;
+}
+#banner .banner-title .btn:hover{
+	background: transparent;
+	border: 1px solid #fff;
+}
+#banner .img_box{
+	background: #161616!important;
+}
+#banner .banner-title .lead{
+	color: #fff;
+	letter-spacing: 2px;
+}
+/*about section*/
+#about{
+	width: 100%;
+	background: #363636;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+/*skill*/
+#skil{
+	width: 100%;
+	background: #161616;
+	padding-top: 70px;
+	padding-bottom: 50px;
+
+}
+#project{
+	width: 100%;
+	background: #161616;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+#blog{
+	width: 100%;
+	background: #363636;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+#blog .card-body{
+	background: #161616!important;
+	color: #fff;
+}
+#blog .card-body a{
+	color: #fff;
+}
+#blog .card-body small{
+	color: #CF000F;
+}
+#contact{
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/contact3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-position: left-center;
+	 
+}
+
+#contact input,textarea{
+	background: transparent!important;
+	border-bottom: 1px solid #fff;
+	outline: none;
+}
+#contact i{
+	color: #fff;
+	font-size: 4rem;
+	margin-right: 20px;
+	transition: all 0.6s;
+
+}
+#contact .icon{
+	margin-top: 80px;
+}
+#contact i:hover{
+	color: #CF000F;
+}
+#contact .btn{
+	width: 190px;
+	background: #CF000F;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: 400;
+	margin-top: 10px;
+	border-radius: 0;
+}
+#contact .btn:hover{
+	background: #fff;
+	color: #CF000F;
+}
+#footer{
+	background: #000;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	text-align: center;
+	color: #fff;
+
+}
+
+/*responsive*/
+@media (max-width: 768px){
+
+	.section_title{
+	font-size: 3rem;
+}
+	.section{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+	#banner{
+	width: 100%;
+	background: #161616!important;
+	padding-bottom: 100px;
+/*	border-bottom: 1px solid #363636;*/
+
+}
+	#banner .banner-title{
+		margin-top: 10%;
+		text-align: center;
+	}
+	#banner .banner-title h1{
+		font-size: 3rem;
+		font-weight: 600;
+		color: #fff;
+	}
+	#banner .banner-title .btn{
+	width: 160px;
+	padding: 8px 10px;
+	font-weight: 400;
+}
+#banner .img_box img{
+	width: 300px!important;
+	height: 300px!important;
+	border-radius: 50%;
+
+}
+#contact .icon{
+	margin-top: 30px;
+	text-align: center;
+}
+#contact i{
+	font-size: 2rem;
+	margin-right: 10px;
+
+}
+#contact .btn{
+	width: 160px;
+	background: #CF000F;
+	color: #fff;
+	padding: 8px 10px;
+}
+#about, #skill, #project, #blog, #contact{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#banner img{
+	margin-left: 15px!important;
+}
+	
+
+
+}
